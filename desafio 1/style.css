@@ -1,0 +1,35 @@
+.hidden {
+    display: none;
+}
+
+#start-screen {
+    text-align: center;
+}
+
+#startBtn,
+#restartBtn {
+    padding: 12px 20px;
+    border: none;
+    background: #2196F3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.answer-btn {
+    display: block;
+    margin: 8px 0;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.correct {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.wrong {
+    background-color: #e74c3c;
+    color: white;
+}
